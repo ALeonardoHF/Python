@@ -1,6 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient("mongodb+srv://Admin:3312@proyectofinal.yytqy.mongodb.net/ProFinal?retryWrites=true&w=majority")
+client = pymongo.MongoClient("URI MongoCluster")
 db = client.COCHES
 collection = db.naves
 
