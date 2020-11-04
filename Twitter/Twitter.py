@@ -9,7 +9,7 @@ import pandas as pd
 import pymongo
 
 #client = pymongo.MongoClient("mongodb+srv://progra-int:f1r3w4ll@proyecto-final.az9ty.gcp.mongodb.net/prueba?retryWrites=true&w=majority")
-client = pymongo.MongoClient("mongodb+srv://EAA:3312@proyectofinal.yytqy.gcp.mongodb.net/ProyectoFinal_v2?retryWrites=true&w=majority")
+client = pymongo.MongoClient("URI MongoDB cluster")
 db = client.ProyectoFinal_v2
 
 cl = db.test
