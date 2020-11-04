@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import pymongo
 
-#client = pymongo.MongoClient("mongodb+srv://progra-int:f1r3w4ll@proyecto-final.az9ty.gcp.mongodb.net/prueba?retryWrites=true&w=majority")
+#client = pymongo.MongoClient("URI MongoDB cluster")
 client = pymongo.MongoClient("URI MongoDB cluster")
 db = client.ProyectoFinal_v2
 
